@@ -1,0 +1,31 @@
+package edu.upc.dsa.minimo2;
+
+public class Repositorio {
+private String name;
+private String language;
+
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getLanguage() {
+        return language;
+    }
+
+    public void setLanguage(String language) {
+        this.language = language;
+    }
+
+    public Repositorio(String name, String lenguage) {
+        this.name = name;
+        this.language = lenguage;
+    }
+
+    public Repositorio() {
+    }
+}
